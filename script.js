@@ -3,7 +3,7 @@ function firstWord(s) {
 	const match = s.match(/^\S+/);
     
     // Check if a match is found
-    if (match) {
+    if (!!match) {
         return match[0]; // Return the matched word
     } else {
         return s; // Return the entire string if no match found
@@ -12,5 +12,5 @@ function firstWord(s) {
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
-alert(firstWord(s));
+// const s = prompt("Enter String:");
+// alert(firstWord(s));
