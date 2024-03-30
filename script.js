@@ -1,6 +1,6 @@
 function firstWord(s) {
   // your code here
-	const match = a.match(/^\S+/);
+	const match = s.match(/^\S+/);
     
     // Check if a match is found
     if (match) {
